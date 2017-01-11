@@ -42,7 +42,6 @@ div h2{
 }
 
 .logo{
-    position: relative;
     float: left;
     margin-left: 20px;
     height: 60px;
@@ -50,7 +49,6 @@ div h2{
 }
 
 .link{
-    position: relative;
     float: right;
     margin-right: 10px;
 }
@@ -76,7 +74,11 @@ div h2{
     font-weight: bold;
 }
 
-#article_1,#article_2,#article_3,#picture,#side{
+#article_1,
+#article_2,
+#article_3,
+#picture,
+#side{
     margin: 20px auto;
     background-color: white;
     width: 95%;
@@ -132,7 +134,7 @@ span{
 }
 
 .content-left{
-    position: relative;
+
     float: left;
     margin-left: 15%;
     width: 20%;
@@ -147,7 +149,7 @@ span{
 .content-right{
     display: inline-block;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
 .submit{
@@ -158,10 +160,6 @@ span{
     color: white;
     width: 100%;
 }
-
-
-
-
 
 footer{
 	background-color: #2F4F4F;

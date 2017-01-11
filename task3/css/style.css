@@ -44,7 +44,7 @@ html {overflow-y: scroll;}
     height: 400px;
     background: white;
     font-size: 18px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .main .right{

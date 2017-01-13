@@ -171,25 +171,24 @@ footer{
 	line-height: 60px;
 }
 
-#left{
-    width: 50%;
-    margin-left: 30px;
-    margin-right: 30px;
-	float:left;
-}
-
 #right{
+    position: absolute;
     width:500px;
     height:500px;
-    margin-right: -30px;
-    float:left;
+    top: 0;
+    right: 20px;
+}
+
+#left{
+    margin-right: 540px;
+    margin-left: 20px;
 }
 
 #wrap {
-	margin:0 auto;
+    position: relative;
 	width:100%;
     background-color: #ccc;
-    overflow: auto;
+    overflow: hidden;
     zoom: 1;
 }
 
@@ -199,3 +198,4 @@ footer{
 	height: 50px;
 	width:100%;
 }
+

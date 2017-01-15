@@ -12,7 +12,8 @@ table { border-collapse:collapse; }
 html {overflow-y: scroll;} 
 
 #wrap{
-
+    background: #fff;
+    
 }
 
 #header{

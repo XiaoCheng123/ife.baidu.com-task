@@ -12,12 +12,14 @@ table { border-collapse:collapse; }
 html {overflow-y: scroll;} 
 
 #wrap{
-    background: #fff;
-    
+    height: 1386px;
+    width: 980px;
+    padding: 0 42px;
+    background: white;
 }
 
 #header{
-    background: red;
+    
 }
 
 #content{
@@ -40,3 +42,9 @@ span{
     color: #fff;
     background: #d45d5d;
 }
+
+
+
+
+
+

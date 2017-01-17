@@ -188,6 +188,7 @@ span{
 #article{
     position: relative;
     margin: 40px 0 0 0;
+    overflow: hidden;
 }
 
 .article-left{
@@ -391,4 +392,15 @@ span{
 .last div .span2{
     top: 90px;
     right: 20px;
+}
+
+#footer{
+    margin-top: 30px;
+    border-top: 2px solid transparent;
+    border-top-color: #938e8f;
+}
+
+#footer p{
+    float: right;
+    color: #d45d5c;
 }

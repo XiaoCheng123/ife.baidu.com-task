@@ -44,12 +44,11 @@
             }
             var li = document.createElement("li");
             // 考虑相等的情况
-            if (i < (aqiData.length - 1) && parseInt(aqiData[i][1]) == parseInt(aqiData[i+1][1])) {
-                li.innerHTML = "第" + (k + 1) + "名：" + aqiData[i][0] + "," + aqiData[i+1][0];
-                i++;
-            } else {
-                li.innerHTML = "第" + (k + 1) + "名：" + aqiData[i][0];
-            }
+            // while (i < (aqiData.length - 1) && parseInt(aqiData[i][1]) == parseInt(aqiData[i+1][1])) {
+            //     li.innerHTML = "第" + (k + 1) + "名：" + aqiData[i][0] + "," + aqiData[i+1][0];
+            //     i++;
+            // }
+            li.innerHTML = "第" + (k + 1) + "名：" + aqiData[i][0];
             list.appendChild(li);
         }
     })();

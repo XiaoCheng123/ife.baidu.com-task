@@ -10,7 +10,7 @@
         return str.replace(/^\s+|\s+$/g,'');  //去掉头尾的空格
     }
 
-    //包装一个对象包含跨浏览器处理事件方法
+    //包装一个对象包含跨浏览器处理点击事件方法
     var EventUtil = {
         //添加监听器
         addHandler : function(element, type, handler) {

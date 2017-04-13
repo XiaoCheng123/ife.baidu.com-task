@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task23</title>
+    <style type="text/css">
+        body {
+            text-align: center; 
+        }
+    	button {
+			border:0;
+			box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+			padding: 5px;
+			margin:20px 5px;
+			cursor: pointer;
+			background-color: #fff;
+		}
+
+		button:active {
+			box-shadow: 0 0 5px rgba(0,0,0,0.5);
+		}
+        div {
+            float: left;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #000;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .default {
+            background-color: #fff;
+            color: black;
+        }
+        .active {
+			background-color: blue;
+			color: #fff;
+		}
+		.found {
+			background-color: red;
+			color: #fff;
+		}
+    </style>
+</head>
+<body>
+    <button>深度优先遍历</button>
+    <button>广度优先遍历</button>
+    <input />
+    <button>深度优先搜索</button>
+    <button>广度优先搜索</button>
+    
+    <div id="root">
+        xiaocheng
+        <div>
+            javascript
+            <div>vue.js</div>
+            <div>node.js</div>
+        </div>
+        <div>
+            html
+            <div>css</div>
+            <div>c</div>
+        </div>
+        <div>
+            java
+            <div>c++</div>
+            <div>python</div>
+            <div>oracle</div>
+        </div>
+        <div>nothing</div>
+    </div>
+    <script type="text/javascript" src="task23.js"></script>
+</body>
+</html>

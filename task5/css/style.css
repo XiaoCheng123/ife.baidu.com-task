@@ -1,0 +1,201 @@
+/**
+    初始化css
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+body{
+    margin: 0;
+}
+
+div h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+div h2{
+	font-size: 15px;
+	color: grey;
+}
+
+.beizhu{
+    font-size: 10px;
+	color: grey;
+}
+.top{
+    background-color: #616161;
+    height: 60px;
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.link{
+    float: right;
+    margin-right: 10px;
+}
+
+.link a{
+    color: white;
+    font-size: 15px;
+    line-height: 60px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.link li{
+    display: inline;
+}
+
+.linkcolor{
+    color: gray;
+    font-size: 10px;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#article_1,
+#article_2,
+#article_3,
+#picture,
+#side{
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+}
+
+#side{
+    clear: both;
+}
+
+ul.none{
+    list-style-type: none;
+}
+
+.content{
+	border: 1px solid;
+	margin: 10px;
+	padding: 10px;
+    display: inline-block;
+}
+
+.content p{
+	text-align: center;
+}
+
+table{
+    margin: 15px;
+    width: 96%;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+table th{
+    text-align: left;
+    color: white;
+    background-color: #616161;
+    padding-left: 5px;
+}
+
+table td{
+    padding-left: 5px;
+}
+
+#side p{
+    font-size: 10px;
+    color: grey;
+}
+
+#side form{
+    font-size: 10px;
+    text-align: center;
+}
+
+span{
+    font-size: 10px;
+    text-align: center;
+}
+
+.content-left{
+    float: left;
+    margin-left: 15%;
+    width: 20%;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.content-left p{
+    height: 21px;
+}
+
+.content-right{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    margin-left: 0;
+}
+
+.submit{
+    background: #4876FF;
+    height: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+}
+
+footer{
+	background-color: #2F4F4F;
+	text-align: center;
+	height: 50px;
+	color: white;
+	line-height: 60px;
+}
+
+#right{
+    position: absolute;
+    width:500px;
+    height:500px;
+    top: 0;
+    right: 20px;
+}
+
+#left{
+    margin-right: 540px;
+    margin-left: 20px;
+}
+
+#wrap {
+    position: relative;
+	width:100%;
+    background-color: #ccc;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#footer {
+	background-color: #2F4F4F;
+	text-align: center;
+	height: 50px;
+	width:100%;
+}
+

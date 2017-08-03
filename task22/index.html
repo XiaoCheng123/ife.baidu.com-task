@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task22</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .child-3 {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+
+        .child-2 {
+            display: flex;
+            padding: 20px;
+            height: 100px;
+            width: 220px;
+            border: 1px solid #000;
+            justify-content: space-between;
+        }
+
+        .child-1 {
+            display: flex;
+            padding: 20px;
+            height: 140px;
+            width: 540px;
+            border: 1px solid #000;
+            justify-content: space-between;         
+        }
+
+        .root {
+            display: flex;
+            margin: 100px auto;
+            padding: 20px;
+            height: 180px;
+            width: 1180px;
+            border: 1px solid #000;
+            justify-content: space-between;             
+        }
+
+        .btns {
+            display: block;
+            width: 1180px;
+            text-align: center;
+        }
+
+        button {
+            margin: auto 20px;
+            width: 100px;
+            height: 30px;
+            background: #89cff0;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="root">
+        <div class="child-1">
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+        </div>
+        <div class="child-1">
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+            <div class="child-2">
+                <div class="child-3"></div>
+                <div class="child-3"></div>
+            </div>
+        </div>
+    </div>
+    <span class="btns">
+        <button>先序遍历</button>
+        <button>中序遍历</button>
+        <button>后序遍历</button>
+    </span>
+    <script src="task22.js" type="text/javascript"></script>
+</body>
+</html>
